@@ -43,6 +43,12 @@ h6{
     color: black ;
 }
 
+.position{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+
 /* HEADER */
 
 header{
@@ -52,6 +58,30 @@ header{
 
 header .brand img{
     width: 165px;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+}
+
+/* SOCIAL MEDIA BUTTONS */
+.Social-Media-Buttons{
+    width: calc(100% - 200px);
+    height: 60px;
+    float: left;
+    border-left: 1px solid #858585;
+    position: relative;
+}
+
+.Social-Media-Buttons i{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.Social-Media-Buttons i:hover{
+    color: cornflowerblue;
+    cursor: pointer;
 }
 
 .nav-menu{
