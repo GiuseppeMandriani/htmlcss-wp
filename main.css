@@ -34,6 +34,15 @@ body{
     position: relative;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: black ;
+}
+
 /* HEADER */
 
 header{
@@ -72,7 +81,9 @@ header .brand img{
 
 
 /* MAIN */
-
+main{
+    margin-bottom: 40px;
+}
 
 /* HERO IMG */
 
@@ -93,6 +104,37 @@ section .Descrizione{
     bottom: 15%;
     
 }
+
+section .Descrizione h2{
+    color: #fff;
+}
+
+
+/* LEADERSHIP */
+
+.leadership{
+    margin: 40px 0;
+}
+
+.leadership .heading{
+    margin-bottom: 40px;
+}
+
+
+.leadership .columns .col{
+    width: 20%;
+    height: 600px;
+    background-color: lightblue;
+    float: left;
+}
+
+.leadership .columns .col:nth-child(2){
+    width: 56%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
 
 
 
