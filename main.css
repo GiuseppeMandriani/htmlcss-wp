@@ -107,6 +107,11 @@ section .Descrizione h2{
     color: #fff;
 }
 
+section .Descrizione h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 /* LEADERSHIP */
 
@@ -119,6 +124,7 @@ section .Descrizione h2{
 .leadership .heading{
     margin-bottom: 40px;
 }
+
 
 /* COLONNE */
 .leadership .columns .col{
@@ -166,6 +172,11 @@ section .Descrizione h2{
 
 .margin{
     margin-bottom: 15px;
+}
+
+.bottom h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 
