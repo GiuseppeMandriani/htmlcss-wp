@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     color: #858585;
     
 }
@@ -25,15 +26,22 @@ body{
     clear: both;
 }
 
+.Layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
 /* HEADER */
 
 header{
+    margin-top: 15px;
     margin-bottom: 40px;
 }
 
 header .brand img{
     width: 165px;
-    border-right: 1 pc solid #858585;
 }
 
 .nav-menu{
@@ -56,11 +64,34 @@ header .brand img{
     color: #858585;
 }
 
-
-
-
+.nav-menu li a:hover{
+    color: cornflowerblue;
+    font-weight: 700;
+}
 
 
 /* MAIN */
+
+
+/* HERO IMG */
+
+.hero{
+    width: 100%;
+    height: 500px;
+    background-image: url(./img-wp-layout-detail/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+div .Layover p{
+    font-size: 32px;
+    padding: 30px;
+}
+
+
+
+
+
 
 
