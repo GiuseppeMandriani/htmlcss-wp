@@ -31,6 +31,7 @@ body{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 15px;
+    position: relative;
 }
 
 /* HEADER */
@@ -84,9 +85,13 @@ header .brand img{
     border-radius: 15px;
 }
 
-div .Layover p{
-    font-size: 32px;
-    padding: 30px;
+section .Descrizione{
+    width: 500px;
+    color: #fff;
+    position: absolute;
+    left: 5%;
+    bottom: 15%;
+    
 }
 
 
