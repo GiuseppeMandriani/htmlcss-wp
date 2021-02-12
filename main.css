@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: red;
+    
 }
 
 
@@ -22,5 +22,43 @@ body{
     display: table;
     clear: both;
 }
+
+/* HEADER */
+
+header{
+    margin-bottom: 40px;
+}
+
+header .brand img{
+    width: 165px;
+    border-right: 1 pc solid #858585;
+}
+
+.nav-menu{
+    margin-top: 40px;
+}
+
+.nav-menu li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-menu li:last-child{
+    margin-right: 0;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #858585;
+}
+
+
+
+
+
+
+/* MAIN */
 
 
